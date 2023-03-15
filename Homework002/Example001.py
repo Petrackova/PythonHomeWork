@@ -8,7 +8,6 @@
 num = int(input('Введите число монеток: '))
 kol_0=0
 kol_1=0
-mim = 0
 from random import randint
 for i in range(num):
     i = randint(0,1)
